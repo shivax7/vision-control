@@ -294,7 +294,7 @@ class YOLODetectionUI:
     def __init__(self, root, model_path):
         self.root = root
         self.model_path = model_path
-        self.root.title("YOLO Detection System")
+        self.root.title("YOLO Detection Interface")
         self.root.geometry("1100x600")
         
         # Queues for thread communication
